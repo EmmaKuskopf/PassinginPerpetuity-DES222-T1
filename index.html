@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passing in Perpetuity</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<style type="text/css">
+
+    body{ font-family: "Josefin Slab", serif;}
+
+</style>
+    <!-- <link rel="stylesheet" href="style.css">  -->
+    
+</head>
+<body>
+
+<div class="grid grid-cols-12 grid-rows-3 gap-4">
+        <div class="col-span-12 row-span-3 bg-black text-center text-white align-baseline text-4xl py-8">Passing in Perpetuity</div>
+</div>
+
+<!--Section Past for Desktop view-->
+<div class="hidden xl:block">
+<div class="bg-white">           
+<div class="grid grid-cols-12 grid-rows-11 gap-4 m-10 flex-initial">
+    <div class="col-span-4 row-span-2 col-start-2 row-start-1 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image1.jpg"></img></div>
+    <div class="col-span-4 row-span-2 col-start-8 row-start-1 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image2.jpg"></img></div>
+    <div class="col-span-10 row-span-1 col-start-2 row-start-3 bg-white text-black text-center align-baseline text-4xl flex items-center justify-center"><div>Here Lies the Past-Desktop</div></div>
+    <div class="col-span-4 row-span-2 col-start-2 row-start-4 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image3.jpg"></img></div>
+    <div class="col-span-4 row-span-6 col-start-8 row-start-4 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image4.jpg"></img></div>
+    <div class="col-span-4 row-span-6 col-start-2 row-start-6 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image5.jpg"></img></div>
+    <div class="col-span-4 row-span-2 col-start-8 row-start-10 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image6.jpg"></img></div>
+</div>
+</div>
+<div class="bg-black py-2">
+<div class="grid grid-cols-12 grid-rows-9 gap-4 m-10">
+    <div class="col-span-12 row-span-4 row-start-1 overflow-hidden"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage1" src="images/Present-Image1.jpg"></img></div>
+    <div class="col-span-12 row-span-1 row-start-5 bg-white text-black text-center text-4xl flex items-center justify-center"><div>Here Lies the Present</div></div>
+    <div class="col-span-6 row-span-2 row-start-6 overflow-hidden"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage2" src="images/Present-Image2.jpg"></img></div>
+    <div class="col-span-6 row-span-4 col-start-7 row-start-6 overflow-hidden"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage3" src="images/Present-Image3.jpg"></img></div>
+    <div class="col-span-6 row-span-2 row-start-8 overflow-hidden"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage4" src="images/Present-Image4.jpg"></img></div>
+</div>
+</div>
+
+<div class="bg-white">
+<div class="grid grid-cols-12 grid-rows-12 gap-4 m-10">
+    <div class="col-span-5 row-span-6 col-start-2 row-start-1 overflow-hidden"><img class="permeationImage object-cover h-full w-full" id="permeationImage1" src="images/Permeation-Image1.jpg"></img></div>
+    <div class="col-span-5 row-span-6 col-start-2 row-start-7 overflow-hidden"><img class="permeationImage object-cover h-full w-full" id="permeationImage2" src="images/Permeation-Image2.jpg"></img></div>
+    <div class="col-span-5 row-span-6 col-start-7 row-start-7 overflow-hidden"><img class="permeationImage object-cover h-full w-full" id="permeationImage3" src="images/Permeation-Image3.jpg"></img></div>
+    <div class="col-span-5 row-span-6 col-start-7 row-start-1 bg-white text-black align-baseline text-4xl flex items-end justify-start"><div>Here Lies the Permeation</div></div>
+</div>
+</div>
+
+<div class = "bg-black">
+<div class="grid grid-cols-12 grid-rows-12 gap-4 m-10">
+    <div class="col-span-6 row-span-4 row-start-2 overflow-hidden"><img class="posterityImage object-cover h-full w-full" id="posterityImage1" src="images/Posterity-Image1.jpg"></img></div>
+    <div class="col-span-6 row-span-4 col-start-7 row-start-2 overflow-hidden"> <img class="posterityImage object-cover h-full w-full" id="posterityImage2" src="images/Posterity-Image2.webp"></img> </div>
+    <div class="col-span-12 row-start-6 bg-white text-black text-center align-baseline text-4xl flex items-center justify-center"><div>Here Lies Possibility of Posterity</div></div>
+    <div class="col-span-6 row-span-4 row-start-7 overflow-hidden"> <img class="posterityImage object-cover h-full w-full" id="posterityImage3" src="images/Posterity-Image3.jpg"></img> </div>
+    <div class="col-span-6 row-span-4 col-start-7 row-start-7 overflow-hidden"><img class="posterityImage object-cover h-full w-full" id="posterityImage4" src="images/Posterity-Image4.jpg"></img></div>
+    <div class="col-span-12 row-start-12 bg-black text-white text-center align-baseline text-4xl flex items-end justify-center"><div>From Prayer to Pixels</div></div>
+</div>
+<div class="grid grid-cols-12 grid-rows-5 gap-4 m10 py-4">
+        <div class="col-span-4 row-span-6 col-start-3 overflow-hidden"><div class="h-[512px]"><img class="posterityImage object-cover h-full w-full" id="posterityImage5" src="images/Posterity-Image5.jpg"></img></div></div>
+    <div class="col-span-4 row-span-6 col-start-7 overflow-hidden"><div class="h-[512px]"><img class="posterityImage object-cover h-full w-full" id="posterityImage6" src="images/Posterity-Image6.png"></div></div>
+</div>
+</div>
+    
+<div class="grid grid-cols-12 grid-rows-1 gap-4">
+        <div class="col-span-12 row-span-1 bg-white text-center text-black align-baseline text-4xl py-8">Passing in Perpetuity</div>
+</div>
+</div>
+
+<!--Section Past for Tablet view-->
+
+<div class="hidden lg:block xl:hidden">
+<div class="bg-white">
+<div class="grid grid-cols-8 grid-rows-10 gap-4 m-5 flex-initial">
+    <div class="col-span-3 row-span-2 col-start-1 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image1.jpg"></img></div>
+    <div class="col-span-3 row-span-2 col-start-6 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image2.jpg"></img></div>
+    <div class="col-span-8 row-span-1 col-start-1 row-start-3 bg-white text-black text-center align-baseline text-4xl flex items-center justify-center"><div>Here Lies the Past-Tablet</div></div>    
+    <div class="col-span-3 row-span-2 row-start-4 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image3.jpg"></img></div>
+    <div class="col-span-3 row-span-5 col-start-1 row-start-6 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image4.jpg"></img></div>
+    <div class="col-span-3 row-span-5 col-start-6 row-start-4 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image5.jpg"></img></div>
+    <div class="col-span-3 row-span-2 col-start-6 row-start-9 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image6.jpg"></img></div>
+</div>
+</div>
+
+<div class="bg-black py-2">
+<div class="grid grid-cols-8 grid-rows-2 gap-4 m-5">
+    <div class="col-span-6 row-span-2 col-start-2 overflow-hidden"><div class="h-[768px]"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage1" src="images/Present-Image1.jpg"></img></div></div>
+</div> 
+<div class="grid grid-cols-8 grid-rows-1 gap-4">
+    <div class="col-span-8 col-start-1 bg-white text-black text-center align-baseline text-4xl py-8 flex items-center justify-center"><div>Here Lies the Present</div></div>
+</div> 
+
+<div class="grid grid-cols-8 grid-rows-4 gap-4 m-5">
+    <div class="col-span-4 row-span-2 row-start-1 overflow-hidden"><div class="h-[352px]"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage2" src="images/Present-Image2.jpg"></img></div></div>
+    <div class="col-span-4 row-span-2 col-start-1 row-start-3 overflow-hidden"><div class="h-[352px]"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage3" src="images/Present-Image4.jpg"></img></div></div>
+    <div class="col-span-4 row-span-2 col-start-5 row-start-2 overflow-hidden"><div class="h-[512px]"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage4" src="images/Present-Image3.jpg"></img></div></div>
+</div> 
+</div>
+  
+<div class="bg-white">
+<div class="grid grid-cols-8 grid-rows-8 gap-4 m-10">
+    <div class="col-span-4 row-span-4 col-start-1 row-start-1 overflow-hidden"><img class="permeationImage object-cover h-full w-full" id="permeationImage1" src="images/Permeation-Image1.jpg"></img></div>
+    <div class="col-span-4 row-span-4 col-start-5 row-start-1 bg-white text-black align-baseline text-4xl flex items-end justify-start"><div>Here Lies the Permeation</div></div>
+    <div class="col-span-4 row-span-4 col-start-1 row-start-5 overflow-hidden"><img class="permeationImage object-cover h-full w-full" id="permeationImage2" src="images/Permeation-Image2.jpg"></img></div>
+    <div class="col-span-4 row-span-4 col-start-5 row-start-5 overflow-hidden"><img class="permeationImage object-cover h-full w-full" id="permeationImage3" src="images/Permeation-Image3.jpg"></img></div>
+ 
+</div>
+</div>
+
+<div class = "bg-black py-2">
+<div class="grid grid-cols-8 grid-rows-11 gap-4 m-5">
+    <div class="col-span-4 row-span-3 row-start-1 overflow-hidden"><img class="posterityImage object-cover h-full w-full" id="posterityImage1" src="images/Posterity-Image1.jpg"></img></div>
+    <div class="col-span-4 row-span-3 col-start-5 row-start-1 overflow-hidden"><img class="posterityImage object-cover h-full w-full" id="posterityImage2" src="images/Posterity-Image2.webp"></img> </div>
+    <div class="col-span-8 row-start-4 row-span-1 col-start-1 bg-white text-black text-center align-baseline text-4xl flex items-center justify-center"><div>Here Lies Possibility of Posterity</div></div>
+    <div class="col-span-4 row-span-3 row-start-5 overflow-hidden"><img class="posterityImage object-cover h-full w-full" id="posterityImage3" src="images/Posterity-Image3.jpg"></img> </div>
+    <div class="col-span-4 row-span-3 col-start-5 row-start-5 overflow-hidden"><img class="posterityImage object-cover h-full w-full" id="posterityImage4" src="images/Posterity-Image4.jpg"></img></div>
+    <div class="col-span-8 col-start-1 row-start-8 row-span-1 bg-black text-white text-center align-baseline text-4xl flex items-end justify-center"><div>From Prayer to Pixels</div></div>
+    <div class="col-span-3 row-span-3 col-start-2 row-start-9 overflow-hidden"><img class="posterityImage object-cover h-full w-full" id="posterityImage5" src="images/Posterity-Image5.jpg"></img></div>
+    <div class="col-span-3 row-span-3 col-start-5 row-start-9 overflow-hidden"><img class="posterityImage object-cover h-full w-full" id="posterityImage6" src="images/Posterity-Image6.png"></div>
+</div>
+</div>
+    
+<div class="grid grid-cols-8 grid-rows-1 gap-4">
+        <div class="col-span-8 row-span-1 bg-white text-center text-black align-baseline text-4xl py-8">Passing in Perpetuity</div>
+</div>
+</div>
+
+</div>
+
+<!--Section Past for Mobile view-->
+<div class="lg:hidden"> 
+
+<div class="bg-white py-2 m-4">
+<div class="grid grid-cols-4 grid-rows-1 gap-4">
+    <div class="col-span-4 overflow-hidden"><div class="h-[512px]"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image4.jpg"></img></div></div>
+</div>
+
+<div class="grid grid-cols-4 grid-rows-1 gap-4">
+    <div class="col-span-4 col-start-1 bg-white text-black text-center align-baseline text-2xl py-4 flex items-center justify-center"><div>Here Lies the Past-Mobile</div></div>
+</div> 
+
+<div class="grid grid-cols-4 grid-rows-2 gap-4">
+    <div class="col-span-2 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image1.jpg"></img></div>
+    <div class="col-span-2 col-start-3 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image2.jpg"></img></div>
+    <div class="col-span-2 row-start-2 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image3.jpg"></img></div>
+    <div class="col-span-2 col-start-3 row-start-2 overflow-hidden"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image6.jpg"></img></div>
+</div>
+<div class="grid grid-cols-4 grid-rows-1 gap-4 py-2">
+    <div class="col-span-4 overflow-hidden"><div class="h-[512px]"><img class="pastImage object-cover h-full w-full" id="pastImage1" src="images/Past-Image5.jpg"></img></div></div>
+</div>
+</div>
+ 
+<div class="bg-black py-2">
+<div class="grid grid-cols-4 grid-rows-2 gap-4 m-4">
+    <div class="col-span-4 row-span-2 overflow-hidden"><div class="h-[384px]"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage1" src="images/Present-Image1.jpg"></img></div></div>
+</div> 
+<div class="grid grid-cols-4 grid-rows-1 gap-4">
+    <div class="col-span-4 col-start-1 bg-white text-black text-center align-baseline text-2xl py-4 flex items-center justify-center"><div>Here Lies</div></div>
+</div> 
+
+<div class="grid grid-cols-4 grid-rows-2 gap-4 m-4">
+    <div class="col-span-4 row-span-1 row-start-1 col-start-1 overflow-hidden"><div class="h-[192px]"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage2" src="images/Present-Image2.jpg"></img></div></div>
+    <div class="col-span-4 row-span-1 row-start-2 col-start-1 overflow-hidden"><div class="h-[192px]"><img class="presentImage object-cover h-full w-full" id="presentImage3" src="images/Present-Image4.jpg"></img></div></div>
+</div>
+
+<div class="grid grid-cols-4 grid-rows-1 gap-4">
+    <div class="col-span-4 bg-white text-black text-center align-baseline text-2xl py-4 flex items-center justify-center"><div>the Present</div></div>
+</div> 
+
+<div class="grid grid-cols-4 grid-rows-2 gap-4 m-4">
+    <div class="col-span-4 row-span-2 row-start-3 overflow-hidden"><div class="h-[384px]"><img class="presentImage object-cover h-full w-full rounded-t-full" id="presentImage4" src="images/Present-Image3.jpg"></img></div></div>
+</div>
+
+</div>
+
+
+<div class="bg-white py-2">
+<div class="grid grid-cols-12 grid-rows-12 gap-4 m-4">
+    <div class="col-span-5 row-span-6 col-start-2 row-start-1 overflow-hidden"><div class="h-[192px]"><img class="permeationImage object-cover h-full w-full" id="permeationImage1" src="images/Permeation-Image1.jpg"></img></div></div>
+    <div class="col-span-5 row-span-6 col-start-2 row-start-7 overflow-hidden"><div class="h-[192px]"><img class="permeationImage object-cover h-full w-full" id="permeationImage2" src="images/Permeation-Image2.jpg"></img></div></div>
+    <div class="col-span-5 row-span-6 col-start-7 row-start-7 overflow-hidden"><div class="h-[192px]"><img class="permeationImage object-cover h-full w-full" id="permeationImage3" src="images/Permeation-Image3.jpg"></img></div></div>
+    <div class="col-span-5 row-span-6 col-start-7 row-start-1 bg-white text-black align-baseline text-2xl flex items-end justify-start"><div>Here Lies the Permeation</div></div>
+</div>
+</div>
+
+
+<div class = "bg-black py-2">
+<div class="grid grid-cols-4 grid-rows-1 gap-4 m-2">
+    <div class="col-span-4 bg-white text-black text-center align-baseline text-2xl flex items-center py-3 justify-center"><div>Here Lies Possibility of Posterity</div></div>
+</div>
+
+<div class="grid grid-cols-4 grid-rows-4 gap-4 py-2 m-2">
+    <div class="col-span-4 row-start-1 overflow-hidden"><img class="posterityImage object-cover aspect-3/2 h-full w-full" id="posterityImage1" src="images/Posterity-Image1.jpg"></img></div>
+    <div class="col-span-4 row-start-2 overflow-hidden"> <img class="posterityImage object-cover aspect-3/2 h-full w-full" id="posterityImage2" src="images/Posterity-Image2.webp"></img> </div>
+    <div class="col-span-4 row-start-3 overflow-hidden"> <img class="posterityImage object-cover aspect-3/2 h-full w-full" id="posterityImage3" src="images/Posterity-Image3.jpg"></img> </div>
+    <div class="col-span-4 row-start-4 overflow-hidden"><img class="posterityImage object-cover aspect-3/2 h-full w-full" id="posterityImage4" src="images/Posterity-Image4.jpg"></img></div>
+</div>
+
+<div class="grid grid-cols-4 grid-rows-1 gap-4">
+    <div class="col-span-4 bg-black text-white text-center align-baseline text-2xl flex items-end justify-center"><div>From Prayer to Pixels</div></div>
+</div>
+
+<div class="grid grid-cols-4 grid-rows-2 gap-4 py-2">
+    <div class="col-span-2 col-start-2 row-start-1 overflow-hidden"><div class="h-[192px]"><img class="posterityImage object-cover h-full w-full" id="posterityImage5" src="images/Posterity-Image5.jpg"></img></div></div>
+    <div class="col-span-2 col-start-2 row-start-2 overflow-hidden"><div class="h-[192px]"><img class="posterityImage object-cover h-full w-full" id="posterityImage6" src="images/Posterity-Image6.png"></div></div>
+</div>
+</div>
+
+<div class="grid grid-cols-4 grid-rows-1 gap-4">
+        <div class="col-span-4 row-span-1 bg-white text-center text-black align-baseline text-4xl py-8">Passing in Perpetuity</div>
+</div>
+</div>
+
+<!--Image References-->
+
+<div class="bg-black">
+<div class="max-w-3xl mx-auto p-6 space-y-10">
+  <!-- Past -->
+  <section>
+    <h2 class="text-2xl font-bold text-white mb-2">Here Lies the Past</h2>
+    <p class="text-sm text-gray-200 mb-3">(Images 1–6, Left to Right, Top to Bottom)</p>
+    <p class="text-sm text-gray-200 mb-3">Starnes (2025), Ishida (2023), Eve (2021), Reel Focus Productions (2024), Sayles (2020), Yu (2019).</p>
+  </section>
+
+  <!-- Present -->
+  <section>
+    <h2 class="text-2xl font-bold text-gray-400 mb-2">Here Lies the Present</h2>
+    <p class="text-sm text-gray-200 mb-3">(Images 1–4, Left to Right, Top to Bottom)</p>
+    <p class="text-sm text-gray-200 mb-3">Nevozhai (2019), Merrity (2023), Balye (2018), Pixabay (2015).</p>
+  </section>
+
+  <!-- Permeation -->
+  <section>
+    <h2 class="text-2xl font-bold text-gray-400 mb-2">Here Lies the Permeation</h2>
+    <p class="text-sm text-gray-200 mb-3">(Images 1–3, Left to Right, Top to Bottom)</p>
+    <p class="text-sm text-gray-200 mb-3">Cuong (2024), Delgado (2022), Sakurai (2025).</p>
+  </section>
+
+  <!-- Posterity -->
+  <section>
+    <h2 class="text-2xl font-bold text-gray-400 mb-2">Here Lies Possibility of Posterity</h2>
+    <p class="text-sm text-gray-200 mb-3">(Images 1–6, Left to Right, Top to Bottom)</p>
+    <p class="text-sm text-gray-200 mb-3">Adobe Firefly (2025), Lee (2020), Adobe Firefly (2025), Adobe Firefly (2025), Zhu (2019) Adobe Firefly (2025).</p>
+  </section>
+</div>
+
+<div class="max-w-3xl mx-auto p-6 space-y-8">
+  <section>
+    <h2 class="text-2xl font-bold text-gray-400 mb-4">Image References</h2>
+    <ol class="list-decimal list-inside space-y-4 text-gray-200">
+      <li>
+        Balye, S. (2018). gray concrete tombs on cemetery screenshot. 
+        <a href="https://unsplash.com/photos/gray-concrete-tombs-on-cemetery-screenshot-3dPljatc268?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+      <li>
+        Cuong, P. (2024). A Narrow Alley between Buildings. 
+        <a href="https://www.pexels.com/photo/a-narrow-alley-between-buildings-25897520/" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Pexels
+        </a>
+      </li>
+      <li>
+        Delgado, M. (2022). Black and White Photo of a Monument. 
+        <a href="https://www.pexels.com/photo/black-and-white-photo-of-a-monument-13233272/" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Pexels
+        </a>
+      </li>
+      <li>
+        Eve, V. (2021). a cemetery with many headstones and trees in the background. 
+        <a href="https://unsplash.com/photos/a-cemetery-with-many-headstones-and-trees-in-the-background-BhRmv5Ek4-A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+      <li>
+        Ishida, N. (2023). a cemetery with many headstones and trees in the background. 
+        <a href="https://unsplash.com/photos/a-cemetery-with-many-headstones-and-trees-in-the-background-AnU81AO7y44?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+      <li>
+        Merrity, P., II. (2023). a large cemetery filled with lots of headstones. 
+        <a href="https://unsplash.com/photos/a-large-cemetery-filled-with-lots-of-headstones-KDkZSjBfggc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+      <li>
+        Nevozhai, D. (2019). tombstones in cemetery. 
+        <a href="https://unsplash.com/photos/tombstones-in-cemetery-fItDcwI8TZE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+      <li>
+        Pixabay. (2015). Recollect cemetery. 
+        <a href="https://pixabay.com/photos/recollect-cemetery-buenos-aires-945070/" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Pixabay
+        </a>
+      </li>
+      <li>
+        Reel Focus Productions. (2024). An old cemetery with a cross in the middle of it. 
+        <a href="https://unsplash.com/photos/an-old-cemetery-with-a-cross-in-the-middle-of-it-uljkk1a8vNs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+      <li>
+        Sakurai, N. (2025). A crowd of people walking down a street next to tall buildings. 
+        <a href="https://unsplash.com/photos/a-crowd-of-people-walking-down-a-street-next-to-tall-buildings-zjep_96-DYo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+      <li>
+        Sayles, B. (2020, January 29). photo of a cemetery. 
+        <a href="https://www.pexels.com/photo/photo-of-a-cemetery-3643291/" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Pexels
+        </a>
+      </li>
+      <li>
+        Starnes, R., Sr. (2025). A cemetery on a grassy hill with trees. 
+        <a href="https://unsplash.com/photos/a-cemetery-on-a-grassy-hill-with-trees-vQVs_H8JPxI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+      <li>
+        Yu, J. (2019). cemetery during day. 
+        <a href="https://unsplash.com/photos/cemetery-during-day-hy_hwmrIEYw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+      <li>
+        Zhu, M. (2019). buddha figurine. 
+        <a href="https://unsplash.com/photos/buddha-figurine-UK-WwQxe05k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+           class="text-blue-600 hover:underline" target="_blank">
+           Unsplash
+        </a>
+      </li>
+    </ol>
+  </section>
+</div>
+</div>
+
+ <!-- AI Disclaimer -->
+  <section>
+    
+<div class="bg-white">
+<div class="max-w-3xl mx-auto p-6 space-y-5">
+    <h2 class="text-2xl font-bold text-gray-700 mb-2">Use of AI Disclaimer</h2>
+    <p class="text-lg text-gray-700 mb-3">AI was used For the creation of images 1, 3, 4, and 6 in the section "Here Lies Possibility of Permeation".</p>
+    <li>Prompt for Image 1: create a futuristic cemetery</li>
+    <li>Prompt for Image 3: create a futuristic cemetery as population density has reduced the green space available for burial, a wall of shrines should be visible (Composition reference included is a copyrighted photo of Tokyo Ruriden: https://www.cbsnews.com/pictures/high-tech-led-afterlife-japan/6/ )</li>
+    <li>Prompt for Image 4: create a futuristic cemetery</li>
+    <li>Prompt for Image 6: a small personal religious shrine to a deceased loved one, an LED lightup, ceremonial, close-up, futuristic (Style reference, included Adobe Firefly pre-existing picture of a figure in a pink and ble neon circle)</li>
+    <p class="text-lg text-gray-700 mb-3">AI was used to assist in the HTML formatting for tailwindcss of this footer section, including the Image References and the AI Disclaimer</p>
+</div>
+</section>
+
+
+
+
+</body>
+
+</html>
